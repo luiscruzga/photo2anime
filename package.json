@@ -1,0 +1,35 @@
+{
+  "name": "photo2anime",
+  "version": "1.0.0",
+  "description": "Transform your selfie into an anime image",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscruzga/photo2anime.git"
+  },
+  "keywords": [
+    "photo2anime",
+    "photo to anime",
+    "anime",
+    "photo",
+    "selfie",
+    "transform"
+  ],
+  "author": "Luis Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiscruzga/photo2anime/issues"
+  },
+  "homepage": "https://github.com/luiscruzga/photo2anime#readme",
+  "dependencies": {
+    "events": "^3.2.0",
+    "fs": "0.0.1-security",
+    "node-base64-image": "^2.0.1",
+    "path": "^0.12.7",
+    "puppeteer": "^5.5.0",
+    "request": "^2.88.2"
+  }
+}
